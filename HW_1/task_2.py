@@ -10,4 +10,4 @@ sum = int(input('Введите сумму сделанных журавлико
 while sum % 6 != 0:
     sum = int(input('Введены не корректные данные.'))
 else:
-    print((sum // 6), (( sum // 6) * 4), (sum // 6))
+    print(sum // 6, sum // 6 * 4, sum // 6)
