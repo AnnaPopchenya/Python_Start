@@ -8,5 +8,7 @@
 n = int(input('Введите число n:'))
 m = int(input('Введите число m:'))
 k = int(input('Введите число k:'))
-if (k < n * m) and (k % n == 0 or k % m == 0): print('YES')
-else: print('NO')
+if k < n * m and (k % n == 0 or k % m == 0):
+    print('YES')
+else:
+    print('NO')
