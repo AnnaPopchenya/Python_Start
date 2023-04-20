@@ -10,7 +10,7 @@
 # ноутбук
 #     12
 
-Scrabble = {1: 'AEIOULNSTRАВЕИНОРСТ',
+scrabble = {1: 'AEIOULNSTRАВЕИНОРСТ',
             2: 'DGДКЛМПУ',
             3: 'BCMPБГЁЬЯ',
             4: 'FHVWYЙЫ',
