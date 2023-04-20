@@ -18,7 +18,7 @@ scrabble = {1: 'AEIOULNSTRАВЕИНОРСТ',
             8: 'JZШЭЮ',
             10: 'QZФЩЪ'}
 
-word = str(input('Введите слово на английском или русском языке: ')).upper()
+word = input('Введите слово на английском или русском языке: ').upper()
 sum = 0
 for i in word:
     for (k, v) in Scrabble.items():
