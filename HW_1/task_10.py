@@ -22,8 +22,7 @@ word = input('Введите слово на английском или рус�
 sum = 0
 for i in word:
     for (k, v) in Scrabble.items():
-        for j in v:
-            if j == i:
-                sum += k
+        if i in v:
+            sum += k
 print(sum)
 
