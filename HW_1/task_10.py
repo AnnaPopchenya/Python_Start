@@ -21,7 +21,7 @@ scrabble = {1: 'AEIOULNSTRАВЕИНОРСТ',
 word = input('Введите слово на английском или русском языке: ').upper()
 sum = 0
 for i in word:
-    for (k, v) in Scrabble.items():
+    for k, v in Scrabble.items():
         if i in v:
             sum += k
 print(sum)
