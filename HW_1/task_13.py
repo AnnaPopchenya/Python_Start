@@ -11,7 +11,7 @@ def stepen(a, b):
     if b == 0:
         return 1
     if b < 0:
-        return (1/stepen(a, -b))
+        return 1 / stepen(a, -b)
     if b % 2 == 0:
         return stepen(a, b // 2) * stepen(a, b // 2)
     else:
