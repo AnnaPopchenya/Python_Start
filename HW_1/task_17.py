@@ -13,7 +13,7 @@
 
 def rithms(poems):
   vowels = ['а', 'о', 'у', 'ы', 'э', 'е', 'ё', 'и', 'ю', 'я']
-  count_vowels = lambda x: sum(1 for i in x if i in vowels)
+  count_vowels = lambda x: sum(i in vowels for i in x)
   count_list = list(map(count_vowels, poems.split()))
   print('Парам пам-пам') if all([i == count_list[0] for i in count_list]) else print('Пам парам')
 
